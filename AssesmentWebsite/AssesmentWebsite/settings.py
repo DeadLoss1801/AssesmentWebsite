@@ -25,7 +25,7 @@ SECRET_KEY = "django-insecure-zw6q$_)ogj3f6=b0rwn=i8l3gz3pxs+bn9^$t%$&of^djw5al(
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["assesment-web.onrender.com", "127.0.0.1", "localhost"]
+ALLOWED_HOSTS = ["assesmentwebsite.onrender.com", "127.0.0.1", "localhost"]
 
 import cloudinary
 
@@ -87,7 +87,7 @@ import dj_database_url
 
 DATABASES = {
     "default": dj_database_url.config(
-        default="postgresql://assement_storage_3_user:uBz6WEIDlFcF9lyEdKKk6COawDIROfyt@dpg-crc9r9rqf0us73ck0b70-a.oregon-postgres.render.com/assement_storage_3",
+        default="postgresql://codecomprehensioniiitv_user:vBb6HINQmi6JTRwXHIQrjTUeAQXzNJfW@dpg-cstl8p5umphs73fqgg50-a/codecomprehensioniiitv",
         conn_max_age=600,
     )
 }
